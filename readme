@@ -1,0 +1,32 @@
+# UTS Augmented Reality Marker-Based
+Proyek ini merupakan tugas Ujian Tengah Semester (UTS) untuk mata kuliah Augmented Reality (AR) yang mengimplementasikan AR berbasis marker menggunakan teknologi komputer vision. Aplikasi ini mampu mendeteksi marker fisik melalui kamera dan menampilkan objek 3D/animasi digital yang teroverlay dengan lingkungan nyata secara real-time.
+
+## 📋 Deskripsi Proyek
+AR Marker-Based adalah teknologi augmented reality yang menggunakan pola marker (biasanya berupa QR code atau pola khusus) sebagai penanda untuk menempatkan konten digital di dunia nyata. Proyek ini mengimplementasikan deteksi marker serta rendering objek digital yang stabil dan akurat sesuai posisi marker.
+
+## ✨ Fitur Utama
+- Deteksi marker secara real-time menggunakan kamera perangkat
+- Overlay objek 3D/animasi digital di atas marker yang terdeteksi
+- Tracking posisi dan rotasi marker yang stabil
+- Antarmuka pengguna yang sederhana untuk memulai sesi AR
+- Dukungan untuk berbagai jenis marker standar (ArUco, QR Code, atau marker kustom)
+
+## 🛠️ Teknologi yang Digunakan
+- **Unity 3D**: Engine utama untuk pengembangan aplikasi AR
+- **Vuforia / ARCore**: Library untuk deteksi dan tracking marker
+- **OpenCV**: Untuk pengolahan citra dan deteksi marker (jika menggunakan implementasi kustom)
+- **C#**: Bahasa pemrograman utama untuk scripting di Unity
+- **Blender**: Untuk pembuatan dan optimasi model 3D yang ditampilkan di AR
+
+## 🚀 Cara Menjalankan Aplikasi
+1. Clone repositori ini ke perangkat lokal Anda
+   ```bash
+   git clone https://github.com/[username]/uts-ar-marker-based.git
+   ```
+2. Buka project menggunakan Unity versi yang kompatibel (sesuaikan dengan versi yang digunakan dalam proyek)
+3. Import semua dependency dan package yang diperlukan (Vuforia/ARCore)
+4. Cetak marker yang tersedia di folder `assets/markers` untuk digunakan sebagai penanda
+5. Jalankan aplikasi di editor Unity atau build ke perangkat Android/iOS untuk pengujian
+6. Arahkan kamera perangkat ke marker yang sudah dicetak, maka objek digital akan muncul di atas marker
+
+## 📁 Struktur Proyek
